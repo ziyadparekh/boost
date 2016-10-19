@@ -1,0 +1,6 @@
+Pods
+.DS_Store
+*.bundle
+xcuserdata
+*.xcworkspace/xcshareddata
+xcodebuild.log
