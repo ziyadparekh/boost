@@ -16,6 +16,18 @@
 		E50633D51DB7EB99000E5B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50633D31DB7EB99000E5B8C /* LaunchScreen.storyboard */; };
 		E50633E01DB7EB99000E5B8C /* AcmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50633DF1DB7EB99000E5B8C /* AcmeTests.swift */; };
 		E50633EB1DB7EB99000E5B8C /* AcmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50633EA1DB7EB99000E5B8C /* AcmeUITests.swift */; };
+		E50633F91DB7FA14000E5B8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50633F81DB7FA14000E5B8C /* AVFoundation.framework */; };
+		E50633FB1DB7FA1B000E5B8C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50633FA1DB7FA1B000E5B8C /* CoreData.framework */; };
+		E50633FD1DB7FA24000E5B8C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50633FC1DB7FA24000E5B8C /* CoreLocation.framework */; };
+		E50633FF1DB7FA2C000E5B8C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50633FE1DB7FA2C000E5B8C /* CoreText.framework */; };
+		E50634011DB7FA34000E5B8C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50634001DB7FA34000E5B8C /* GLKit.framework */; };
+		E50634031DB7FA3C000E5B8C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50634021DB7FA3C000E5B8C /* ImageIO.framework */; };
+		E50634051DB7FA48000E5B8C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50634041DB7FA48000E5B8C /* libc++.tbd */; };
+		E50634071DB7FA52000E5B8C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50634061DB7FA52000E5B8C /* libicucore.tbd */; };
+		E50634091DB7FA5A000E5B8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E50634081DB7FA5A000E5B8C /* libz.tbd */; };
+		E506340B1DB7FA63000E5B8C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E506340A1DB7FA63000E5B8C /* OpenGLES.framework */; };
+		E506340D1DB7FA6B000E5B8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E506340C1DB7FA6B000E5B8C /* QuartzCore.framework */; };
+		E506340F1DB7FA72000E5B8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E506340E1DB7FA72000E5B8C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,18 @@
 		E50633E61DB7EB99000E5B8C /* AcmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50633EA1DB7EB99000E5B8C /* AcmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcmeUITests.swift; sourceTree = "<group>"; };
 		E50633EC1DB7EB99000E5B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50633F81DB7FA14000E5B8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E50633FA1DB7FA1B000E5B8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E50633FC1DB7FA24000E5B8C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E50633FE1DB7FA2C000E5B8C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E50634001DB7FA34000E5B8C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E50634021DB7FA3C000E5B8C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E50634041DB7FA48000E5B8C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E50634061DB7FA52000E5B8C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		E50634081DB7FA5A000E5B8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E506340A1DB7FA63000E5B8C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E506340C1DB7FA6B000E5B8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E506340E1DB7FA72000E5B8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E506340F1DB7FA72000E5B8C /* SystemConfiguration.framework in Frameworks */,
+				E506340D1DB7FA6B000E5B8C /* QuartzCore.framework in Frameworks */,
+				E506340B1DB7FA63000E5B8C /* OpenGLES.framework in Frameworks */,
+				E50634091DB7FA5A000E5B8C /* libz.tbd in Frameworks */,
+				E50634071DB7FA52000E5B8C /* libicucore.tbd in Frameworks */,
+				E50634051DB7FA48000E5B8C /* libc++.tbd in Frameworks */,
+				E50634031DB7FA3C000E5B8C /* ImageIO.framework in Frameworks */,
+				E50634011DB7FA34000E5B8C /* GLKit.framework in Frameworks */,
+				E50633FF1DB7FA2C000E5B8C /* CoreText.framework in Frameworks */,
+				E50633FD1DB7FA24000E5B8C /* CoreLocation.framework in Frameworks */,
+				E50633FB1DB7FA1B000E5B8C /* CoreData.framework in Frameworks */,
+				E50633F91DB7FA14000E5B8C /* AVFoundation.framework in Frameworks */,
 				20547ADE453078AE18B43B8B /* Pods_Acme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +120,18 @@
 		3289FB9FB9E6107FCC53ADF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E506340E1DB7FA72000E5B8C /* SystemConfiguration.framework */,
+				E506340C1DB7FA6B000E5B8C /* QuartzCore.framework */,
+				E506340A1DB7FA63000E5B8C /* OpenGLES.framework */,
+				E50634081DB7FA5A000E5B8C /* libz.tbd */,
+				E50634061DB7FA52000E5B8C /* libicucore.tbd */,
+				E50634041DB7FA48000E5B8C /* libc++.tbd */,
+				E50634021DB7FA3C000E5B8C /* ImageIO.framework */,
+				E50634001DB7FA34000E5B8C /* GLKit.framework */,
+				E50633FE1DB7FA2C000E5B8C /* CoreText.framework */,
+				E50633FC1DB7FA24000E5B8C /* CoreLocation.framework */,
+				E50633FA1DB7FA1B000E5B8C /* CoreData.framework */,
+				E50633F81DB7FA14000E5B8C /* AVFoundation.framework */,
 				9948C1B0F755770DA06DFF9C /* Pods_Acme.framework */,
 			);
 			name = Frameworks;
